@@ -1,9 +1,6 @@
 def main():
-    data = input().strip().split('+')
-    summary = 0
-    for num in data:
-        summary += int(num)
-    print(summary)
+    data = input('Введите фамилию, имя, отчество: ').strip().split()
+    print(f'{data[0]} {data[1][0]}.{data[2][0]}.')
 
 
 if __name__ == '__main__':
