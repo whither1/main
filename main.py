@@ -1,9 +1,5 @@
 def main():
-    data = input().strip().split('+')
-    summary = 0
-    for num in data:
-        summary += int(num)
-    print(summary)
+    pass
 
 
 if __name__ == '__main__':
